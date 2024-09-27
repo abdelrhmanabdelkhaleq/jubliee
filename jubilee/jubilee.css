@@ -1,0 +1,328 @@
+ :root {
+        --primary-color: #4CC082;
+        --light-primary-color: #E2F3F0;
+        --secondary-color: #ec6c5b;
+        --light-secondary-color: #FFE9E5;
+        --tertiary-color: #FFEED3;
+        --dark-color: #31333A;
+        --light-color: #FFFFFF;
+        --grey-color: #BBC7D4;
+        --light-dark-color: #727272;
+        --light-grey-color: #f5f5f5;
+ }
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+#navbar-nav  li :hover{
+    color:  #4CC082 !important;
+}
+#home{
+    color: #4CC082 !important;
+}
+.dropdown-menu{
+    padding:5px !important;
+    font-size: 12px !important;
+    line-height:1.6rem; 
+    font-weight: bold;
+}
+.dropdown-item{
+    font-weight: 500 !important;
+}
+button span{
+background-image: url(../img/download.svg);
+border: none;
+}
+button{
+    border: none !important;
+}
+@media only screen and (min-width: 768px) {
+    #navbar-nav{
+        font-size: 10px !important;
+    }
+}
+.box1:hover{
+    background-color: #4CC082 !important;
+    transition:  all .3s ease-in;
+    cursor: pointer;
+}
+.box1,.box2,.box3,.box4{
+    width: 250px;
+    height: 120px;
+    background-color: #f5f5f5; 
+    border-radius: 20px;
+     box-shadow: 4px 4px 10px rgba(150, 150, 150, 0.192);
+     padding-top: 2rem !important;
+}
+.box2:hover{
+    background-color: #4CC082 !important;
+    transition:  all .3s ease-in;
+    cursor: pointer;
+}
+.box3:hover{
+    background-color: #4CC082 !important;
+    transition:  all .3s ease-in;
+    cursor: pointer;
+}
+.box4:hover{
+    background-color: #4CC082 !important;
+    transition:  all .3s ease-in;
+    cursor: pointer;
+}
+.box1:hover #text1{color: #FFFFFF !important; }
+.box1:hover #text11{color: #FFFFFF !important; }
+.box2:hover #text2{color: #FFFFFF !important; }
+.box2:hover #text22{color: #FFFFFF !important; }
+.box3:hover #text3{color: #FFFFFF !important; }
+.box3:hover #text33{color: #FFFFFF !important; }
+.box4:hover #text4{color: #FFFFFF !important; }
+.box4:hover #text44{color: #FFFFFF !important; }
+
+#about-me .img2{
+border-radius: 40px;
+}
+.fa-solid fa-check{
+    background-color: var(--secondary-color);
+}
+#text-1-checked {
+    font-size: 12px; /* Adjust size as needed */
+    color: white !important;    /* Adjust color as needed */
+    border-radius: 50% !important;
+    background-color: #ec6c5b !important;
+    padding: 3px !important;
+}
+#button-1{
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    background-color: #4CC082;
+    border-radius: 22px;
+    padding: 1rem;
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+#button-1:hover{
+    opacity: .9;
+}
+.text-cat{
+    color: #ec6c5b;
+    margin-left: 1rem !important;
+    font-size: 12px;
+}
+#button-2{
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    background-color: #4CC082;
+    border-radius: 22px;
+    padding: 1.4rem;
+    margin-top: 15px;
+    width: 170px;
+    height: 40px;
+    text-transform: uppercase;
+}
+#button-2:hover{
+    opacity: .9; 
+}
+.heading-cat{
+    font-weight: 400 ;
+    margin-left: .9rem !important;
+}
+#box-1:hover{
+    color: #f5f5f5 !important;
+}
+#cat{
+    margin-inline: 4.4rem !important;
+}
+#content-cat{
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 8.5px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8,
+.card-9{
+    width: 285px;
+    height: 80px;
+    padding: 22px 0 15px 14px!important;
+}
+.card-1,.card-6{
+    background-color:#E2F3F0;
+}
+.card-1:hover,
+.card-6:hover{
+    transition: all 1s ease;
+    background-color: #4CC082;
+}
+.card-2,.card-9{
+    background-color: #dae4f0;
+    transition: all 1s ease;
+   
+}
+.card-2:hover,
+.card-9:hover{
+    background-color:#727272;
+}
+.card-3,.card-4,.card-8{
+    background-color:#f5e6ce;
+    transition: all 1s ease;
+   
+}
+.card-3:hover,
+.card-4:hover,
+.card-8:hover{
+   background-color:#f8be60;   
+}
+.card-5,.card-7{
+    background:  #ffe9e5;;
+    transition: all 1s ease;
+}
+.card-5:hover,
+.card-7:hover{
+   background-color: #ec6c5b;
+}
+.card-1:hover .textcard-1,
+.card-6:hover .textcard-6,
+.card-2:hover .textcard-2,
+.card-9:hover .textcard-9,
+.card-5:hover .textcard-5,
+.card-7:hover .textcard-7,
+.card-3:hover .textcard-3,
+.card-4:hover .textcard-4,
+.card-8:hover .textcard-8
+{
+    color: #fff !important;
+}
+.textcard-1,
+.textcard-2,
+.textcard-3,
+.textcard-4,
+.textcard-5,
+.textcard-6,
+.textcard-7,
+.textcard-8,
+.textcard-9
+{
+    padding-inline: 1.1rem !important;
+}
+.card-1:hover #icon1,
+.card-6:hover #icon6,
+.card-2:hover #icon2,
+.card-9:hover #icon9,
+.card-5:hover #icon5,
+.card-7:hover #icon7,
+.card-3:hover #icon3,
+.card-4:hover #icon4,
+.card-8:hover #icon8{
+    color: #fff !important;
+}
+.course-title{
+    text-decoration: underline !important;
+    color: #727272;
+}
+.details-pic1{
+    visibility: hidden;
+}
+.pic1:hover .details-pic1{
+    visibility: visible;
+    animation: mymove 2s linear 2s 2 alternate;
+}
+@keyframes mymove {
+    
+}
+.pic1:hover #pic1-tect{
+    transition: all 1.5s  ease;
+    transform: scale(1.01);
+}
+.sign-right input{
+    width: 400px;
+    text-align: center;
+    height: 40px;
+    border: none;
+    border-radius: 22px;
+}
+.sign-right button{
+    width: 400px !important;
+    margin-top: 1rem !important;
+}
+.sign-left,.sign-right{
+    margin-top: 5rem !important;
+    margin-inline:3rem !important;
+}
+.sign-left{
+    margin-left: 5rem !important;
+}
+.quick p{
+    padding-bottom: 15px !important;
+    font-weight: bold;
+}
+.quick li{
+    font-size: 13px;
+    list-style:none ;
+    color: #727272;
+    cursor: pointer;
+}
+.quick li:hover{
+    color: #4CC082;
+}
+.links{
+    padding-top: 6rem !important;
+    padding-bottom: 8rem !important;
+}
+#fac:hover,
+#ins:hover,
+#twit:hover,
+#lin:hover,
+#snap:hover{
+    color: #4CC082 !important;
+    cursor: pointer;
+    transition: .5s all ease-in;
+}
+.foot{
+    border-top: .5px solid rgba(128, 128, 128, 0.427);
+    padding: 1.5rem 0!important;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card{
+    width: 200px;
+    height: fit-content;
+    padding-top: 2rem;
+}
+#online-courses{
+    padding: 5rem 5rem 6rem 5rem !important;
+}
+.card-top{
+    padding-bottom: 1rem !important;
+}
+.card-text{
+    font-weight:bold; 
+    text-decoration: none !important;
+    color: black; 
+    cursor: pointer; 
+    font-size: 16px !important;
+}
+.card-text:hover{
+    color: #4CC082;
+    transition: all .5s ease;
+}
+.card_5{
+    box-shadow: 4px 4px 10px rgba(150, 150, 150, 0.192);
+}
+.card-top{
+    padding: 2rem 0 !important;
+}
+.james{
+    padding: .5rem 0 !important;
+}
